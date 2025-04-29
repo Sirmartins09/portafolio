@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <!--Libreria-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Martin Dean</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./assets/img/img-portafolio.jpg" alt="">
+            </div>
+            <h1>Martin Dean</h1>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/martin-dean-91b43b68/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Martin Dean.</span> Hola, soy Martín Dean.
+                Tengo 35 años y vivo en Godoy Cruz, Mendoza. Actualmente me dedico al desarrollo web, con formación en Coderhouse, donde aprendí a crear sitios funcionales y adaptables.
+                
+                Antes de incursionar en la tecnología, trabajé en logística y administración, desarrollando habilidades como organización, resolución de problemas y trabajo en equipo.
+                
+                Me apasiona seguir aprendiendo y aplicar mis conocimientos técnicos junto con mi experiencia previa para construir soluciones digitales eficientes.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento</strong>
+                            09-09-1989
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            261563292
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            martindn6@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Calle La Mesopotamia 2286, Godoy Cruz, Argentina
+                        </li>
+                    
+                    </ul>
+                </div>
+<!--Boton Descargar CV-->
+<a href="./assets/docs/CV-MartinDean-2025-05.g.pdf" download class="boton-cv">
+    Descargar CV <i class="fa-solid fa-download"></i>
+    <span class="overlay"></span>
+</a>
+        </div>
+    </section>
+
+<!-- SECCION HABILIDADES -->
+<section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>HABILIDADES</h2>
+        <div class="fila">
+            <!-- Technical Skill -->
+            <div class="col">
+                <h3>HABILIDADES TECNICAS</h3>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso htmlcss">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Photoshop</span>
+                    <div class="barra-skill">
+                        <div class="progreso photoshop">
+                            <span>30%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Data Entry, Qubigo</span>
+                    <div class="barra-skill">
+                        <div class="progreso dataentry">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Confección de pedidos y logística interna</span>
+                    <div class="barra-skill">
+                        <div class="progreso logistica-interna">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Microsoft Excel</span>
+                    <div class="barra-skill">
+                        <div class="progreso microsoft-exel">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Microsoft Word</span>
+                    <div class="barra-skill">
+                        <div class="progreso microsoft-word">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Professional Skills -->
+            <div class="col">
+                <h3>HABILIDADES PROFESIONALES</h3>
+                <div class="skill">
+                    <span>Comunicación verbal y escrita</span>
+                    <div class="barra-skill">
+                        <div class="progreso comunicacion">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso trabajo">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Manejo de datos y documentación</span>
+                    <div class="barra-skill">
+                        <div class="progreso datos-documentacion">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Dedicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso dedicacion">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Autonomía y proactividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso autonomia-proactividad">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Organización del trabajo</span>
+                        <div class="barra-skill">
+                            <div class="progreso organizacion-trabajo">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- SECCION CURRICULUM -->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Licenciatura en Comunicación Social</h4>
+                    <span class="casa">Universidad Nacional de Cuyo – Facultad de Ciencias Políticas y Sociales</span>
+                    <span class="fecha">Carrera incompleta – cursada hasta segundo año</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Técnico Superior en Administración de Empresas</h4>
+                    <span class="casa">ISTEEC - Instituto Superior Técnico de Estudios Económicos de Cuyo</span>
+                    <span class="fecha">En curso</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Desarrollador Web</h4>
+                    <span class="casa">Coderhouse</span>
+                    <span class="fecha">Finalizado: 2025</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col derecha">
+                <h3>Experiencia de trabajo</h3>
+                <div class="item der">
+                    <h4>coordinadora de talleres de actividades sociales y culturales</h4>
+                    <span class="casa">Nombre de la Institución: Escuela Nª 1-657 India Magdalena
+                    </span>
+                    <span class="fecha">2013</span>
+                    <p>Tareas: Docente Tallerista de Radio, en el marco del programa Nacional Centro dInfantiles (CAI) Nª 14 en la Escuela Nª 1-657 India Magdalena. Bº 26 de enero.
+                    </p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Operario/a de línea de montaje </h4>
+                    <span class="casa">Nombre de la Empresa: Cooperativa Farmacéutica
+                    </span>
+                    <span class="fecha">2015 - 2022</span>
+                    <p>Confección de pedido de medicamentos para las farmacias, Despacho, Guardado,
+                        Reposición, Confección y Manipulación de pedidos de vacunas.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Empleado/a administrativo con uso de PC</h4>
+                    <span class="casa">Asociación de Clinicas y Sanatorios
+                    </span>
+                    <span class="fecha">2022 - 2023</span>
+                    <p>Data Entry, carga de órdenes médicas para facturación en el sistema Qubigo.
+                    </p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- SECCION CONTACTO -->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!-- Formulario -->
+            <div class="col">
+                <input type="text" id="nombre" placeholder="Tu Nombre">
+                <input type="text" id="telefono" placeholder="Número telefónico">
+                <input type="text" id="correo" placeholder="Dirección de correo">
+                <input type="text" id="tema" placeholder="Tema">
+                <textarea id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+                <button type="button" onclick="enviarWhatsApp()">
+                    Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+                
+            </div>
+            <!-- Mapa -->
+            <div class="col">
+            
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Llamanos: 261 - 5632792 
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: martindn6@mail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/martin-dean-91b43b68/"><i class="fa-brands fa-linkedin-in"></i></a>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        function enviarWhatsApp() {
+            const nombre = document.getElementById("nombre").value.trim();
+            const telefono = document.getElementById("telefono").value.trim();
+            const correo = document.getElementById("correo").value.trim();
+            const tema = document.getElementById("tema").value.trim();
+            const mensaje = document.getElementById("mensaje").value.trim();
+        
+            if (!nombre || !telefono || !correo || !tema || !mensaje) {
+                alert("Por favor, completá todos los campos.");
+                return;
+            }
+        
+            const texto = `Hola, soy ${nombre}%0A📞 Tel: ${telefono}%0A📧 Email: ${correo}%0A📌 Tema: ${tema}%0A📝 Mensaje: ${mensaje}`;
+            const numeroWhatsApp = "5492611234567"; // reemplazá con tu número real
+            const url = `https://wa.me/${numeroWhatsApp}?text=${texto}`;
+        
+            window.open(url, "_blank");
+        }
+        </script>
+        
+        
+</body>
+</html>
