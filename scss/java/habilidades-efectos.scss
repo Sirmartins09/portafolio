@@ -1,0 +1,122 @@
+/* Estas clases se agregaran dinamicamente mediante javascript */
+/*=========================*/
+/*-----JAVA/HABILIDADES----*/
+/*=========================*/
+/*=====================*/
+/*habilidades tecnicas*/
+/*====================*/
+/*HTML Y CSS*/
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+/*Photoshop*/
+.skills .skill .photoshop{
+    width: 0%;
+    animation: 2s photoshop forwards;
+}
+@keyframes photoshop {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+/*Dataentry*/
+.skills .skill .dataentry{
+    width: 0%;
+    animation: 2s dataentry forwards;
+}
+@keyframes dataentry {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+/*Logistica*/
+.skills .skill .logistica-interna{
+    width: 0%;
+    animation: 2s logistica-interna forwards;
+}
+@keyframes logistica-interna {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+/*Exel*/
+.skills .skill .microsoft-excel{
+    width: 0%;
+    animation: 2s microsoft-excel forwards;
+}
+@keyframes microsoft-excel {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+/*Word*/
+.skills .skill .microsoft-word{
+    width: 0%;
+    animation: 2s microsoft-word forwards;
+}
+@keyframes microsoft-word {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+/*========================*/
+/*Habilidades Pofesionales*/
+/*========================*/
+/*Comunicacion*/
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+/*Trabajo*/
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+@keyframes trabajo {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+/*Gestios de datos y Documentacion*/
+.skills .skill .datos-documentacion{
+    width: 0%;
+    animation: 2s datos-documentacion forwards;
+}
+@keyframes datos-documentacion {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+/*Dedicación*/
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+
+/*Proactivo*/
+.skills .skill .autonomia-proactividad{
+    width: 0%;
+    animation: 2s autonomia-proactividad forwards;
+}
+@keyframes autonomia-proactividad {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+/*Organización en el trabajo*/
+.skills .skill .organizacion-trabajo{
+    width: 0%;
+    animation: 2s organizacion-trabajo forwards;
+}
+@keyframes organizacion-trabajo {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}

@@ -1,0 +1,93 @@
+/* SECCION RESPONSIVE */
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+        overflow-x: hidden;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:480px){
+    .sobremi .fila{
+        display: block;
+    }
+    .sobremi .fila .col{
+        width:100%;
+    }
+    .sobremi button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    .skills .fila{
+        display: block;
+    }
+    .skills .contenido-seccion h2{
+        text-align: center;
+        margin-left: -10px;
+        max-width: 100%;
+        
+    }
+    .skills .fila .col{
+        width: 100%;
+    }
+    .skills .fila .col .barra-skill{
+        width: 100%;
+    }
+
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .col{
+        width: 90%;
+    }
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+
+    .portfolio .galeria{
+        display: block;
+        width: 100%;
+    }
+    .portfolio .galeria .proyecto{
+        max-width: 100%;
+    }
+    .portfolio .galeria .proyecto img{
+        width: 100%;
+    }
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col {
+    
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        padding: 0px 5px;
+        
+        
+    }
+    .contacto .fila .col .info .li .i{
+        align-items: center;
+        text-align: center;
+    }
+}
