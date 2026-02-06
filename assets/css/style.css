@@ -318,6 +318,23 @@ html, body {
   bottom: 4px;
 }
 
+.btn-descarga {
+  display: inline-block;
+  margin: 20px 0 40px;
+  padding: 12px 22px;
+  background-color: #1cb698; /* ajustalo a tu paleta */
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-descarga:hover {
+  background-color: #159e82;
+  transform: translateY(-2px);
+}
+
 /* SECCION CONTACTO */
 .contacto {
   background-image: url(img/contact_bg.png);
